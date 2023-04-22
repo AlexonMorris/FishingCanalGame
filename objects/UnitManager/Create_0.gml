@@ -1,5 +1,3 @@
-Actives = []
+selected_base = pointer_null
 startX = 0
 startY = 0
-TargetID = 0
-CurrentId = 0

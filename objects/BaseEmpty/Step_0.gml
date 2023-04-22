@@ -1,4 +1,6 @@
-if score_1 <= 0{
-	score_1 = score_1 * -1
-	instance_change(BaseGreen,0)
-}
+/// @description Insert description here
+// You can write your code in this editor
+
+// Inherit the parent event
+event_inherited();
+owner_id = -1
