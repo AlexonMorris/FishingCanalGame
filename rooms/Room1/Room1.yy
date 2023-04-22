@@ -10,8 +10,8 @@
     {"name":"inst_7E5C5618","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_34390AA3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_11F39DBC","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2BDA7D60","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7B8E3E66","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2BDA7D60","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
