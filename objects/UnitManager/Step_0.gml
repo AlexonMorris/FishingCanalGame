@@ -1,6 +1,4 @@
-if (mouse_check_button_pressed(mb_left))
-{
-	startX = mouse_x
-	startY = mouse_y
-}
-
+//escape menu
+//if (keyboard_check_released(vk_escape)) {
+//	if (!escape_menu) {
+//		escape_menu = true
