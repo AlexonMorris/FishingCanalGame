@@ -1,1 +1,1 @@
-move_towards_point(target_x, target_y, 4)
+move_towards_point(target_x, target_y, speed_soldier)
