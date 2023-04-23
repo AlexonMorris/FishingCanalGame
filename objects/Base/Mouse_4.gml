@@ -13,6 +13,7 @@ else if UnitManager.selected_base != pointer_null and Player.my_id == owner_id {
 	}
 } else if (UnitManager.selected_base != pointer_null) and (UnitManager.selected_base.ID != ID) and (Player.my_id != owner_id) and (UnitManager.selected_base.score_1 >= 1) {
 	selected_base = UnitManager.selected_base
+	
 	var unit = instance_create_layer(selected_base.x, selected_base.y, "Instances", Soldier)
 	unit.owner_id = selected_base.owner_id
 	unit.speed_soldier = 5 - floor(UnitManager.selected_base.score_1 / 25)
@@ -20,6 +21,18 @@ else if UnitManager.selected_base != pointer_null and Player.my_id == owner_id {
 	unit.target_x = x
 	unit.target_y = y
 	unit.score_1 = selected_base.score_1
+	
+	//var buff = buffer_create(32,buffer_grow,1)
+	//buffer_seek(buff,buffer_seek_start,0)
+	//buffer_write(buff,buffer_s16,owner_id)
+	//buffer_write(buff,buffer_s16,unit.speed_soldier)
+	//buffer_write(buff,buffer_u16,ID)
+	//buffer_write(buff,buffer_s16,x)
+	//buffer_write(buff,buffer_s16,y)
+	//buffer_write(buff,buffer_s16,score_1)
+	//network_send_packet(o_client.client,buff,buffer_tell(buff))
+	//buffer_delete(buff)
+	
 	selected_base.score_1 = 0
 } /*else {
 	UnitManager.selected_base.is_selected = false
