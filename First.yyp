@@ -46,6 +46,7 @@
     {"id":{"name":"o_exit","path":"objects/o_exit/o_exit.yy",},},
     {"id":{"name":"RedWin","path":"sprites/RedWin/RedWin.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"Grid","path":"objects/Grid/Grid.yy",},},
     {"id":{"name":"Forest","path":"objects/Forest/Forest.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"Soldier","path":"objects/Soldier/Soldier.yy",},},

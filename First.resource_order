@@ -24,6 +24,7 @@
     {"name":"o_exit","order":4,"path":"objects/o_exit/o_exit.yy",},
     {"name":"RedWin","order":18,"path":"sprites/RedWin/RedWin.yy",},
     {"name":"Sprite2","order":1,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Grid","order":9,"path":"objects/Grid/Grid.yy",},
     {"name":"Forest","order":7,"path":"objects/Forest/Forest.yy",},
     {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Soldier","order":4,"path":"objects/Soldier/Soldier.yy",},

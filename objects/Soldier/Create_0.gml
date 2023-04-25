@@ -6,3 +6,5 @@ speed_soldier = 1
 target_id = 0
 target_x = 0
 target_y = 0
+
+prev_x = x
